@@ -13,7 +13,6 @@ class TestCreatePaste:
         self.paste_name = 'My name'
         self.paste_private = 0
         self.paste_lang = 'Text'
-        self.paste_expire = 10
         self.paste_url = create_paste(text=self.paste_text,
                                       title=self.paste_title,
                                       name=self.paste_name,
